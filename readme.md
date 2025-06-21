@@ -1,14 +1,8 @@
-## Repository Type : Repository Name
+## Project : Lineup
 
-> Repository description or tagline
+> Digital queue management system built with clean architecture
 
-Badges (if required)
-
-### Table of Contents
-
-- Item 1
-- Item 2
-- Item 3
+![clean-architecture](https://img.shields.io/badge/project_lineup-clean_architecture-teal)
 
 ### Features
 
@@ -22,22 +16,6 @@ Badges (if required)
 - Requirement 2
 - Requirement 3
 
-### Installation
-
-1. Step 1
-2. Step 2
-3. Step 3
-
-### Usage
-
-1. Command 1
-2. Command 2
-3. Command 3
-
-### Website
-
-Website Screenshot
-
 ### Folder Structure
 
 ```
@@ -50,20 +28,25 @@ root
 
 ### Documentation
 
-Full documentation can be found in [docs](docs/) folder.
+Full documentation can be found in [docs][docs] folder.
 
 ### Running Tests
 
-Run the following command to execute the test suite : `command to run tests`
+Run the following command to execute the test suite : `mvn clean test`
 
 ### Contributing
 
-We welcome contributions! Please read [contributing.md](contributing.md) for guidelines.
+We welcome contributions! Please read [contributing.md][contributing] for guidelines.
 
 ### Versioning
 
-This project uses [Semantic Versioning](https://semver.org/).
+This project uses [Semantic Versioning][versioning].
 
 ### License
 
-[License Identifier](license)
+[MIT][license]
+
+[docs]: docs
+[contributing]: contributing.md
+[versioning]: https://semver.org
+[license]: license
