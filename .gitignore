@@ -1,6 +1,8 @@
 # hidden directories
+.vscode
 
 # directories
+target
 
 # hidden files
 
