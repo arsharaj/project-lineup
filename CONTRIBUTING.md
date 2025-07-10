@@ -51,7 +51,7 @@ To ensure a smooth and collaborative process, please follow these guidelines.
 
 ### Code of Conduct
 
-By participating in this project, you agree to follow our [Code of Conduct][code_of_conduct].
+By participating in this project, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ### Guidelines for Contributions
 
@@ -63,17 +63,13 @@ By participating in this project, you agree to follow our [Code of Conduct][code
 
 ### Reporting Bugs
 
-If you find a bug, please open an issue using the [Bug Report Template][bug_report]. Include as much detail as possible to help us diagnose and fix the issue quickly.
+If you find a bug, please open an issue using the [Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md). Include as much detail as possible to help us diagnose and fix the issue quickly.
 
 ### Requesting Features
 
-If you have a new feature idea, please submit an issue using the [Feature Request Template][feature_request]. Provide details about the feature and its use case.
+If you have a new feature idea, please submit an issue using the [Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md). Provide details about the feature and its use case.
 
 ### Thank You
 
 Your contributions are greatly appreciated !
 Together, we can make this project even better.
-
-[code_of_conduct]: code_of_conduct.md
-[bug_report]: .github/issue-template/bug_report.md
-[feature_request]: .github/issue-template/feature_request.md

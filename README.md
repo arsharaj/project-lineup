@@ -28,7 +28,7 @@ root
 
 ### Documentation
 
-Full documentation can be found in [docs][docs] folder.
+Full documentation can be found in [docs](docs/) folder.
 
 ### Running Tests
 
@@ -36,17 +36,12 @@ Run the following command to execute the test suite : `mvn clean test`
 
 ### Contributing
 
-We welcome contributions! Please read [contributing.md][contributing] for guidelines.
+We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ### Versioning
 
-This project uses [Semantic Versioning][versioning].
+This project uses [Semantic Versioning](https://semver.org/).
 
 ### License
 
-[MIT][license]
-
-[docs]: docs
-[contributing]: contributing.md
-[versioning]: https://semver.org
-[license]: license
+[MIT License](LICENSE)

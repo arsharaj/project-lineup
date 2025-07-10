@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+### How to Use
+
+To keep this changelog up to date, please follow these guidelines when making changes :
+
+1. **Document notable changes** : Every time a new version is released, log the changes made.
+2. **Use markdown** : Use proper markdown formatting for clarity and structure.
+3. **Include version numbers and dates** : Clearly indicate the version and the release date for each entry.
+
+---
+
 ### [Unreleased]
 
 #### Added
@@ -42,11 +52,3 @@ All notable changes to this project will be documented in this file.
 - First draft of the project with basic functionality
 
 ---
-
-### How to Use
-
-To keep this changelog up to date, please follow these guidelines when making changes :
-
-1. **Document notable changes** : Every time a new version is released, log the changes made.
-2. **Use markdown** : Use proper markdown formatting for clarity and structure.
-3. **Include version numbers and dates** : Clearly indicate the version and the release date for each entry.
