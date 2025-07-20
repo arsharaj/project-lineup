@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.util.concurrent.ThreadLocalRandom;
 
 import lombok.Getter;
+import lombok.Setter;
 import lombok.NoArgsConstructor;
 
 @Getter
@@ -18,6 +19,10 @@ public class Token implements Serializable {
     private int serviceTime;
     private int waitTime;
     private String timestamp;
+    @Setter
+    private TokenStatus status;
+    @Setter
+    private String servingCounterId;
 
     public Token(
             String userId,
@@ -31,6 +36,7 @@ public class Token implements Serializable {
         this.serviceTime = serviceTime;
         this.waitTime = calculateWaitTime();
         this.timestamp = generateTimeStamp();
+        this.status = TokenStatus.WAITING;
     }
 
     private String generateId() {

@@ -9,6 +9,7 @@ public final class RedisKeyTemplate {
     private static final String TOKEN_KEY = "token:%s";
     private static final String USER_QUEUE_KEY = "user:%s:queue:%s";
     private static final String QUEUE_COUNTER_KEY = "queue:%s:counter";
+    private static final String WAITING_QUEUE_KEY = "queue:%s:waiting";
 
     public static String tokenKey(String tokenId) {
         return String.format(TOKEN_KEY, tokenId);
@@ -20,5 +21,9 @@ public final class RedisKeyTemplate {
 
     public static String queueCounterKey(String queueId) {
         return String.format(QUEUE_COUNTER_KEY, queueId);
+    }
+
+    public static String waitingQueueKey(String queueId) {
+        return String.format(WAITING_QUEUE_KEY, queueId);
     }
 }

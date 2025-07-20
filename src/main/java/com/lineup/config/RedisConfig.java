@@ -29,7 +29,7 @@ public class RedisConfig {
     }
 
     @Bean
-    RedisTemplate<String, Integer> counterRedisTemplate() {
+    RedisTemplate<String, Integer> integerRedisTemplate() {
         RedisTemplate<String, Integer> redisTemplate = new RedisTemplate<>();
         redisTemplate.setConnectionFactory(redisConnectionFactory());
         redisTemplate.setKeySerializer(new StringRedisSerializer());

@@ -18,6 +18,8 @@ public class TokenResponse {
     private int serviceTime;
     private int waitTime;
     private String timestamp;
+    private String tokenStatus;
+    private String servingCounterId;
     private String errorMessage;
 
     public TokenResponse(Token token) {
@@ -29,6 +31,8 @@ public class TokenResponse {
             this.serviceTime = token.getServiceTime();
             this.waitTime = token.getWaitTime();
             this.timestamp = token.getTimestamp();
+            this.tokenStatus = token.getStatus().toString();
+            this.servingCounterId = token.getServingCounterId();
         }
     }
 
