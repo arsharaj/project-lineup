@@ -4,10 +4,4 @@
 
 # specific directories
 
-/docs/ @arsharaj
-/src/ @arsharaj
-/tests/ @arsharaj
-
 # specific files
-
-README.md @arsharaj
