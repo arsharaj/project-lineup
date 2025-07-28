@@ -10,13 +10,13 @@ To ensure a smooth and collaborative process, please follow these guidelines.
 2. **Clone your fork** : Clone your forked repository to your local machine.
 
    ``` bash
-   git clone https://github.com/arsharaj/github-arsharaj-template.git
+   git clone git@github.com:[username]/project-lineup.git
    ```
 
 3. **Create a branch** : Create a new branch for your work.
 
    ``` bash
-   git checkout -b feature/your-name/feature-name
+   git checkout -b feature/[your-name]/[feature-name]
    ```
 
 4. **Make your changes** : Implement your changes or feature. Make sure your code follows the project's code style and guidelines.
@@ -44,10 +44,10 @@ To ensure a smooth and collaborative process, please follow these guidelines.
 7. **Push to your fork** : Push your changes to your forked repository.
 
    ``` bash
-   git push origin feature/your-name/feature-name
+   git push origin feature/[your-name]/[feature-name]
    ```
 
-8. **Submit a pull request** : Open a pull request from your branch to the `main` branch of the original repository. In the description, link any related issues and explain your changes in detail. Submit the pull request message in this format : `merge : feature/your-name/feature-name into main`
+8. **Submit a pull request** : Open a pull request from your branch to the `main` branch of the original repository. In the description, link any related issues and explain your changes in detail. Submit the pull request message in this format : `merge : feature/[your-name]/[feature-name] into main`
 
 ### Code of Conduct
 
