@@ -1,14 +1,8 @@
-## Repository Type : Repository Name
+## Project : Lineup
 
-> Repository description or tagline
+> Digital queue management system built with clean architecture
 
 Badges (if required)
-
-### Table of Contents
-
-- Item 1
-- Item 2
-- Item 3
 
 ### Features
 
@@ -66,4 +60,4 @@ This project uses [Semantic Versioning](https://semver.org/).
 
 ### License
 
-[License Identifier](LICENSE)
+[MIT License](LICENSE)
