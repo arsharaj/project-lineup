@@ -44,7 +44,7 @@ root
 
 ### Documentation
 
-Full documentation can be found in [docs](docs/) folder.
+Full documentation can be found in [docs](documentation/) folder.
 
 ### Running Tests
 
