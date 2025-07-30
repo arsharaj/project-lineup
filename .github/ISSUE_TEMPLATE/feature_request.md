@@ -6,8 +6,6 @@ labels: feature
 assignees: ''
 ---
 
-## Feature Request Template
-
 ### Description
 
 Please provide a clear and concise description of the feature.
